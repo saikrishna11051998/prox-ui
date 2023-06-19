@@ -6,10 +6,12 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import './styles/App.css';
 import './styles/mediaqueries.css';
+import Services from "./Components/Services";
+import About from "./Components/About";
 
 /* React Bootstrap CSS */
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Services from "./Components/Services";
+
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/service" element={<Services />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>

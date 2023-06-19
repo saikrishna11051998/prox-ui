@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import './styles/App.css';
+import './styles/mediaqueries.css';
 
 /* React Bootstrap CSS */
 import 'bootstrap/dist/css/bootstrap.min.css';

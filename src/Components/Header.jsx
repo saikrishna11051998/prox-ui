@@ -11,7 +11,7 @@ const Header = () => {
       <img src={logo} alt="ProXInfotech" />
       <div className="navbar">
         <Link to="/">Home</Link>
-        <HashLink to="#service">Service</HashLink>
+        <Link to="/service">Service</Link>
         <Link to="/">About</Link>
         <Link to="/contact">Contact</Link>
       </div>

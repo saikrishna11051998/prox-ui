@@ -9,6 +9,7 @@ import './styles/mediaqueries.css';
 
 /* React Bootstrap CSS */
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Services from "./Components/Services";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/service" element={<Services />} />
         </Routes>
         <Footer />
       </Router>

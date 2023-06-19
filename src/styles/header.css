@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 4rem;
+}
+
+nav h2 {
+  /* text-transform: uppercase; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav .navbar {
+  display: flex;
+  align-items: center;
+}
+
+nav .navbar a {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  transition: all 0.7s;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+}
+nav .navbar a:hover {
+  opacity: 1;
+  /* border-bottom: 1px solid #0e76a8; */
+  box-shadow: 2px 4px 4px #0e77a881;
+}

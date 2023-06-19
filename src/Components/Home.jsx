@@ -1,153 +1,135 @@
-import React, { Component } from 'react';
-import './Home.css';
-
-
+import React from "react";
+import "../styles/home.css";
+// import banner from '../assets/images/banner-bg.png'
+import img_1 from "../assets/Images/img-1.png";
+import img_2 from "../assets/Images/img-2.png";
+import img_3 from "../assets/Images/img-3.png";
+import img_4 from "../assets/Images/img-4.png";
 
 const Home = () => {
   return (
-   
     <>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="logo" href=""></a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                   <a class="nav-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="search jobs.html">SEARCH JOBS</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="recurments.html">RECRUITERS</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="companies.html">COMPANIES</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="services.html">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="#">MORE</a>
-                </li>
-            </ul>
+      {/* Banner */}
+      <div className="banner_section">
+        <div className="heading">
+          <h1>Best Naukri search Here</h1>
+          <div className="search-bar">
+            <input type="text" placeholder="Search Job" />
+            <button>Subscribe</button>
+          </div>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alterationThere are many variations of
+            passages of Lorem Ipsum available, but the majority have suffered
+            alteration
+          </p>
+          <div className="discover">
+            <a href="/">Discover More</a>
+          </div>
         </div>
-         <div class="login_text"><a href="login.html">LOGIN HERE</a></div>
-    </nav>
-	
-	<div class="banner_section layout_padding">
-		<div class="container">
-			<h1 class="best_taital">Best Naukri Search here</h1>
-			<div class="box_main">
-			    <input type="" class="email_bt" placeholder="Search Job" name=""/>
-				<button class="subscribe_bt"><a href="#">Subscribe</a></button>
-		    </div>
-		    <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
-		    <div class="bt_main">
-		    	<div class="discover_bt"><a href="#">Discover More</a></div>
-		    </div>
-		</div>
-	</div>
-	
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <h1 class="jobs_text">Marketing jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-						<img src="C:\Users\saikr\OneDrive\Desktop\Prox-ui\proxInfotech_dashboard\public\assests\images\img-1.png"/>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="image_1 padding_0"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="image_1 padding_0"></div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section_2">
-					    <h1 class="jobs_text">Industrial jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <h1 class="jobs_text">Corporate jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-					</div>
-				</div>
-				<div class="col-md-6 padding_0">
-					<div class="image_1"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+      </div>
 
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 padding_0">
-					<div class="image_1"></div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section_2">
-					    <h1 class="jobs_text">Government jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div class="footer_section layout_padding">
-		<div class="container">
-			<h1 class="subscribr_text">Subscribe Now</h1>
-			<p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority have </p>
-			<div class="box_main_2">
-			    <textarea type="" class="email_bt_2" placeholder="Enter Your Email" name=""></textarea>
-		    </div>
-		    <button class="subscribe_bt_2"><a href="#">Subscribe</a></button>
-		</div>
-	</div>
-	
-	<div class="copyright_section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<p class="copyright_text">Copyright 2020 All Right Reserved By.<a href="https://html.design"> Free  html Templates</a></p>
-				</div>
-				<div class="col-md-6">
-					<p class="cookies_text">Cookies, Privacy and Terms</p>
-				</div>
-			</div>
-		</div>
-	</div>
-    
+      {/* Features */}
+      <div id="service">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <img src={img_1} alt="" />
+            </div>
+            <div className="col-md-6">
+              <h2>Marketing jobs</h2>
+              <p>
+                A marketing analyst or growth marketer specializes in distilling
+                and studying a company's data and presenting their findings
+                internally to inform a company's marketing strategy. Let's say,
+                for example, that you work at Walmart and your team has been
+                tasked with launching a new blog for customers
+              </p>
+              <button className="apply-btn">
+                <a href="/">Apply now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row reverse">
+            <div className="col-md-6">
+              <img src={img_2} alt="" />
+            </div>
+            <div className="col-md-6">
+              <h2>Industrial jobs</h2>
+              <p>
+                Industrial jobs focus on the production of industrial goods
+                through the manufacturing process. This involves moving raw
+                materials to a factory, creating the goods, storing the finished
+                products in a warehouse, and shipping the products to customers
+              </p>
+              <button className="apply-btn">
+                <a href="/">Apply now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <img src={img_3} alt="" />
+            </div>
+            <div className="col-md-6">
+              <h2>Corporate jobs</h2>
+              <p>
+                Corporate jobs are positions within a corporate organization.
+                This typically means an employee position within a larger
+                company, organization or corporation, which can sometimes be
+                composed of several branches in different regions or global
+                locations
+              </p>
+              <button className="apply-btn">
+                <a href="/">Apply now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row reverse">
+            <div className="col-md-6">
+              <img src={img_4} alt="" />
+            </div>
+            <div className="col-md-6">
+              <h2>Government jobs</h2>
+              <p>
+                The meaning of a government job or a Sarkari Naukri is a job
+                offered by a government. In addition, the government pays the
+                salary and other benefits to its employee. A state or central
+                government servant works for the state and is answerable to the
+                government
+              </p>
+              <button className="apply-btn">
+                <a href="/">Apply now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      {/* SubFooter */}
+      <div className="sub-footer">
+        <div className="container">
+          <h2>Subscribe Now</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have
+          </p>
+          <div className="subscribe-bar">
+            <input type="email" placeholder="Enter your email" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
     </>
-      );
-}
+  );
+};
 
 export default Home;
-     
